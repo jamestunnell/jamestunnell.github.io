@@ -1,0 +1,10 @@
+# Site settings
+title: James Tunnell - thoughts, insights, and whatnot
+email: jamestunnell@gmail.com
+description: "A place to post thoughts on and insights from my work."
+baseurl: ""
+url: "http://jamestunnell.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

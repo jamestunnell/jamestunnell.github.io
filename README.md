@@ -1,4 +1,4 @@
 jamestunnell.github.io
 ======================
 
-a personal webpage to post my thoughts on and insights from my work
+A place to post thoughts on and insights from my work.
