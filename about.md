@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+After five years in SW engineering I dived into a CS Master's program, and it's changed my career direction. I still love to write software, but I'm more interested in SW-based tools than in end products. Specifically I've taken a shine to Operations Research (OR), which provides "advanced analytical methods to help make better decisions."<sup>[[1]](https://www.informs.org/About-INFORMS/What-is-Operations-Research)</sup>
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I have found that OR has a great synergy with CS, and I'm pleased to have found a thesis topic to help me develop such a SW-based "decision support" tool. Along the way I hope to share what I learn about OR, and progress on as-yet-untitled my thesis, having to do with near-optimal SW release planning.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+#### References
+1. ["What is Operations Research?"](https://www.informs.org/About-INFORMS/What-is-Operations-Research). Retrieved 9 June 2014.

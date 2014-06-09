@@ -2,7 +2,7 @@
 layout: post
 title:  "The Inaugural Post!"
 date:   2014-06-08 11:00:00
-categories: update
+categories: about
 ---
 
 This is the inaugural post! Posts in the future will (probably) be related to whatever I'm working on. Please send me a message if you'd like to discuss anything I've posted (really, please do).
