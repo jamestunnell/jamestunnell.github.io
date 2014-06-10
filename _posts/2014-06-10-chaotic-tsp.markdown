@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Chaotic Neural Network to Solve the TSP"
-date:   2014-06-10 12:19:00
+date:   2014-06-10 00:19:00
 categories: projects 
 tags: projects optimization "machine learning"
 ---
