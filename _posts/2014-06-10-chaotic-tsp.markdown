@@ -27,5 +27,5 @@ Not to worry, the simple trick is to decay the self-feedback amplitude, just lik
 If you really want it, here it is, in a <a href="{{'/files/csa_tsp.pdf' | prepend:site.baseurl}}">brief report</a> that Sami and I authored.
 
 #### References
-1. <a name="Cite1"></a>Chen, Luonan, and Kazuyuki Aihara. "Chaotic simulated annealing by a neural network model with transient chaos." Neural networks 8.6 (1995): 915-930.
-2. <a name="Cite2"></a>Hopfield, John J., and David W. Tank. "“Neural” computation of decisions in optimization problems." Biological cybernetics 52.3 (1985): 141-152.
+1. <a name="Cite1"/>Chen, Luonan, and Kazuyuki Aihara. "Chaotic simulated annealing by a neural network model with transient chaos." Neural networks 8.6 (1995): 915-930.
+2. <a name="Cite2"/>Hopfield, John J., and David W. Tank. "“Neural” computation of decisions in optimization problems." Biological cybernetics 52.3 (1985): 141-152.
