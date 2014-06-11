@@ -24,7 +24,7 @@ In fact, a HNN is guaranteed to converge to a stable local minimum. Well, that's
 Not to worry, the simple trick is to decay the self-feedback amplitude, just like the cooling in simulated annealing. In fact, the authors are calling this <i>chaotic simulated annealing</i> (CSA) because there's no stochastic behavior in a chaotic system. So as the chaos-inducing term decays, the convergent behavior begins to dominate and the system will magically converge to a local minimum (which could also be the global minimum).
 
 ### The Long Long Story
-If you really want it, here it is, in a <a href="{{'/files/csa_tsp.pdf' | prepend:site.baseurl}}">brief report</a> that Sami and I authored.
+If you really want it, here it is, in a <a href="{{'/files/csa_tsp.pdf' | prepend:site.baseurl}}">brief report</a> that Sami and I authored. Or, you can watch our [presentation](https://docs.google.com/presentation/d/1ku6XDZD6U9FSL7GWifxkkKqHQyTcFlW7hRSuBttI4Kw/pub?start=false&loop=false&delayms=3000) on the same topic.
 
 #### References
 1. <a name="Cite1"/>Chen, Luonan, and Kazuyuki Aihara. "Chaotic simulated annealing by a neural network model with transient chaos." Neural networks 8.6 (1995): 915-930.
