@@ -11,3 +11,4 @@ usernames:
 # Build settings
 markdown: kramdown
 permalink: pretty
+timezone: "America/Vancouver"
