@@ -3,7 +3,7 @@ layout: post
 title:  "Chaotic Neural Network to Solve the TSP"
 date:   2014-06-10 00:19:00
 categories: projects 
-tags: projects optimization "machine learning"
+tags: projects optimization machine-learning
 ---
 
 I just finished up work on a school project with my classmate Sami, solving the traveling salesman problem (TSP) using neural networks (NNs). And not just any NN, but a chaotic NN! What? Yes. And it's amazing.

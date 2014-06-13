@@ -3,7 +3,7 @@ layout: post
 title:  "My Personality Type"
 date:   2014-06-10 12:13:00
 categories: about
-tags: personality "meyer-briggs"
+tags: personality meyer-briggs
 ---
 
 A couple weeks ago I was talking to a campus Career Services rep. He suggested I spend a little time thinking about my personality, so I can reach a more authentic way of operating and presenting myself. Because, he said, employers really do value authenticity so they can know how a potential employee is going to fit into their company. Well, I decided to take him up on that suggestion.
