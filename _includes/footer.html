@@ -51,7 +51,16 @@
     </div>
 
     <div class="footer-col-3 column">
-      <p class="text">{{ site.description }}</p>
+      <p>{{ site.description }}</p>
+      <br/>
+	  <h2>Tags</h2>
+      {% for tag in site.tags %}
+        <li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 75 }}%">
+          <a href="/{{ tag | first | slugize }}/">
+             {{ tag | first }}
+          </a>
+        </li>
+      {% endfor %}
     </div>
 
   </div>
