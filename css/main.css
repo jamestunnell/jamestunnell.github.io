@@ -22,6 +22,11 @@ a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
 a:visited { color: #205caa; }
 
+
+img {
+     max-width: 100%;
+}
+
 /* Utility */
 
 .wrap:before,
@@ -99,18 +104,18 @@ a:visited { color: #205caa; }
 }
 .footer-col-2 {
   width: 175px; /*fallback*/
-  width: -webkit-calc(23.125% - 10px);
-  width: -moz-calc(23.125% - 10px);
-  width: -o-calc(23.125% - 10px);
-  width: calc(23.125% - 10px);
+  width: -webkit-calc(10% - 10px);
+  width: -moz-calc(10% - 10px);
+  width: -o-calc(10% - 10px);
+  width: calc(10% - 10px);
   margin-right: 10px
 }
 .footer-col-3 {
   width: 335px; /*fallback*/
-  width: -webkit-calc(41.875%);
-  width: -moz-calc(41.875%);
-  width: -o-calc(41.875%);
-  width: calc(41.875%);
+  width: -webkit-calc(55%);
+  width: -moz-calc(55%);
+  width: -o-calc(55%);
+  width: calc(55%);
 }
 
 .site-footer ul { list-style: none; }
@@ -124,12 +129,17 @@ a:visited { color: #205caa; }
 
 .footer-icon-svg {
   display: inline-block;
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   position: relative;
   top: 3px;
 }
-
+.footer-icon-svg path {
+    fill: grey;
+}
+.footer-icon-svg:hover path {
+    fill: #2a7ae2;
+}
 
 /* Page Content styles */
 /* ----------------------------------------------------------*/

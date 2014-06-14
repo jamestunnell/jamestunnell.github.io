@@ -4,13 +4,24 @@
 
     <div class="footer-col-1 column">
       <ul>
-        <li><img src="{{ '/images/mugshot.jpg' | prepend: site.baseurl }}"</li>
-        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        <li><img src="{{ '/images/mugshot.jpg' | prepend: site.baseurl }}"></li>
       </ul>
     </div>
 
     <div class="footer-col-2 column">
       <ul>
+        <li>
+          <a href="mailto:{{ site.email }}">
+            <span class="icon email">
+			  <svg version="1.1" class="footer-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				   viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+				<path d="M0,64v384h512V64H0z M256,266.938L56.578,96h398.859L256,266.938z M256,309.063l62.406-53.469L458.75,416H53.266
+					l140.344-160.406L256,309.063z M480,391.719L342.688,234.781L480,117.063V391.719z M169.313,234.75L32,391.688V117.063
+					L169.313,234.75z"/>
+			  </svg>
+            </span>
+          </a>
+        </li>
         <li>
           <a href="https://github.com/{{ site.usernames.github }}">
             <span class="icon github">
@@ -27,7 +38,6 @@
                 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
               </svg>
             </span>
-            <span class="username">{{ site.username }}</span>
           </a>
         </li>
         <li>
@@ -44,7 +54,6 @@
                 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
               </svg>
             </span>
-            <span class="username">{{ site.username }}</span>
           </a>
         </li>
       </ul>
