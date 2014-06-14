@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>James Tunnell</title>
+  <title>Chaotic Neural Network to Solve the TSP - James Tunnell</title>
   <meta name="author" content="James Tunnell">
 
   
-  <meta name="description" content="Another project at school this quarter required me to implement the genetic algorithm (GA). It was a bit of a fun project, mostly because the GA is a &hellip;">
+  <meta name="description" content="I just finished up work on a school project with my classmate Sami, solving the traveling salesman problem (TSP) using neural networks (NNs). And not &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://jamestunnell.github.io">
+  <link rel="canonical" href="http://jamestunnell.github.io/blog/2014/06/09/chaotic-tsp">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="James Tunnell" type="application/atom+xml">
@@ -63,103 +63,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/06/13/genetic-algorithm/">Implementing the Genetic Algorithm</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-06-13T02:07:00-07:00" pubdate data-updated="true">2014-06-13</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Another project at school this quarter required me to implement the <a href="https://en.wikipedia.org/wiki/Genetic_algorithm">genetic algorithm</a> (GA). It was a bit of a fun project, mostly because the GA is a metaheuristic, so its ripe for reuse. In fact, I used the same GA library on three separate problems. The satisfaction of reuse really motivates me to provide improvements to the library.</p>
-
-<h3>The Code</h3>
-
-<p>The code was written in Ruby. There are a few examples included that you can run right away. The README should help get started.</p>
-
-<blockquote><p><a href="https://github.com/jamestunnell/evolve">https://github.com/jamestunnell/evolve</a></p></blockquote>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/06/13/genetic-algorithm/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/06/10/my-personality-type/">My Personality Type</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-06-10T05:13:00-07:00" pubdate data-updated="true">2014-06-10</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>A couple weeks ago I was talking to a campus Career Services rep. He suggested I spend a little time thinking about my personality, so I can reach a more authentic way of operating and presenting myself. Because, he said, employers really do value authenticity so they can know how a potential employee is going to fit into their company. Well, I decided to take him up on that suggestion.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/06/10/my-personality-type/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/06/09/chaotic-tsp/">Chaotic Neural Network to Solve the TSP</a></h1>
+      <h1 class="entry-title">Chaotic Neural Network to Solve the TSP</h1>
     
     
       <p class="meta">
@@ -182,7 +91,7 @@
   </header>
 
 
-  <div class="entry-content"><p>I just finished up work on a school project with my classmate Sami, solving the traveling salesman problem (TSP) using neural networks (NNs). And not just any NN, but a chaotic NN! What? Yes. And it&rsquo;s amazing.</p>
+<div class="entry-content"><p>I just finished up work on a school project with my classmate Sami, solving the traveling salesman problem (TSP) using neural networks (NNs). And not just any NN, but a chaotic NN! What? Yes. And it&rsquo;s amazing.</p>
 
 <h3>The Code</h3>
 
@@ -190,27 +99,43 @@
 
 <blockquote><p><a href="https://github.com/jamestunnell/chaotic_tsp">https://github.com/jamestunnell/chaotic_tsp</a></p></blockquote>
 
+<!--more-->
+
+
+<h3>The Short Story</h3>
+
+<p>Hopfield neural networks are being souped up for optimization, by inducing transient chaotic dynamics. That&rsquo;s basically all there is. (see the long story for more details).</p>
+
+<h3>The Long Story</h3>
+
+<p>We followed the approach described by Aihara and Chen<sup><a href="#Cite1">[1]</a></sup>. They start with a Hopfield NN (HNN), which is fitting since it was Hopfield and Tank<sup><a href="#Cite2">[2]</a></sup> who first applied NNs to solve combinatorial optimization problems, using the HNN of course. So, we start with a HNN. What&rsquo;s missing? Well, the HNN is typically used because it <i>avoids</i> chaotic dynamics (assuming   weights are symmetric and self-connection weights are 0).</p>
+
+<p>In fact, a HNN is guaranteed to converge to a stable local minimum. Well, that&rsquo;s a good thing, actually, but how will this help us produce chaotic dynamics? Chen and Aihara simply add some self-feedback (non-zero self-connection weight). Now we get attractors, and hence rich chaotic dynamics. Now we&rsquo;ve got a mechanism to get our NN to explore the state space (exploratory) instead of going straight for the nearest local minima (greedy). That&rsquo;s what we wanted, but of course this throws the guaranteed convergence right out the window. Hmmm&hellip;</p>
+
+<p>Not to worry, the simple trick is to decay the self-feedback amplitude, just like the cooling in simulated annealing. In fact, the authors are calling this <i>chaotic simulated annealing</i> (CSA) because there&rsquo;s no stochastic behavior in a chaotic system. So as the chaos-inducing term decays, the convergent behavior begins to dominate and the system will magically converge to a local minimum (which could also be the global minimum).</p>
+
+<h3>The Long Long Story</h3>
+
+<p>If you really want it, here it is, in a <a href="/files/csa_tsp.pdf">brief report</a> that Sami and I authored. Or, you can watch our <a href="https://docs.google.com/presentation/d/1ku6XDZD6U9FSL7GWifxkkKqHQyTcFlW7hRSuBttI4Kw/pub?start=false&amp;loop=false&amp;delayms=3000">presentation</a> on the same topic.</p>
+
+<h4>References</h4>
+
+<ol>
+<li><a name="Cite1"/>Chen, Luonan, and Kazuyuki Aihara. &ldquo;Chaotic simulated annealing by a neural network model with transient chaos.&rdquo; Neural networks 8.6 (1995): 915-930.</li>
+<li><a name="Cite2"/>Hopfield, John J., and David W. Tank. &ldquo;“Neural” computation of decisions in optimization problems.&rdquo; Biological cybernetics 52.3 (1985): 141-152.</li>
+</ol>
+
 </div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/06/09/chaotic-tsp/">Read on &rarr;</a>
-    </footer>
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/06/08/inaugural-post/">The Inaugural Post!</a></h1>
-    
-    
-      <p class="meta">
-        
+  
+
+<span class="byline author vcard">Posted by <span class="fn">James Tunnell</span></span>
+
+      
 
 
 
@@ -222,29 +147,42 @@
   
 
 
-<time datetime="2014-06-08T04:00:00-07:00" pubdate data-updated="true">2014-06-08</time>
-        
-      </p>
+<time datetime="2014-06-09T17:19:00-07:00" pubdate data-updated="true">2014-06-09</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/machine-learning/'>Machine Learning</a>, <a class='category' href='/blog/categories/optimization/'>Optimization</a>, <a class='category' href='/blog/categories/projects/'>Projects</a>
+  
+</span>
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>This is the inaugural post! Posts in the future will (probably) be related to whatever I&rsquo;m working on. Please send me a message if you&rsquo;d like to discuss anything I&rsquo;ve posted (really, please do).</p>
-
-<p>In general, my work is not well-defined right now. I&rsquo;m still chugging along in Grad school at the moment. But I&rsquo;m hopeful that I can find practical ways to improve business operations/processes through analysis, modeling, simulation, optimization, etc. You know, all the good tools you might expect from someone well-versed in Operations Research (OR). Well, I&rsquo;m not one like that, but I am pretty competent in Computer Science, and I&rsquo;m developing the OR part&hellip;</p>
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://jamestunnell.github.io/blog/2014/06/09/chaotic-tsp/" data-via="aptlydone" data-counturl="http://jamestunnell.github.io/blog/2014/06/09/chaotic-tsp/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/06/08/inaugural-post/" title="Previous Post: The Inaugural Post!">&laquo; The Inaugural Post!</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/06/10/my-personality-type/" title="Next Post: My Personality Type">My Personality Type &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -273,7 +211,7 @@
 <section>
   <h1>GitHub Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/jamestunnell">@jamestunnell</a> on GitHub
@@ -305,6 +243,7 @@
 
   
 </aside>
+
 
     </div>
   </div>

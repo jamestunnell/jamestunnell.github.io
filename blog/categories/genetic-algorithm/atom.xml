@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Genetic Algorithm | James Tunnell]]></title>
+  <link href="http://jamestunnell.github.io/blog/categories/genetic-algorithm/atom.xml" rel="self"/>
+  <link href="http://jamestunnell.github.io/"/>
+  <updated>2014-06-14T15:51:34-07:00</updated>
+  <id>http://jamestunnell.github.io/</id>
+  <author>
+    <name><![CDATA[James Tunnell]]></name>
+    <email><![CDATA[jamestunnell@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Implementing the Genetic Algorithm]]></title>
+    <link href="http://jamestunnell.github.io/blog/2014/06/13/genetic-algorithm/"/>
+    <updated>2014-06-13T02:07:00-07:00</updated>
+    <id>http://jamestunnell.github.io/blog/2014/06/13/genetic-algorithm</id>
+    <content type="html"><![CDATA[<p>Another project at school this quarter required me to implement the <a href="https://en.wikipedia.org/wiki/Genetic_algorithm">genetic algorithm</a> (GA). It was a bit of a fun project, mostly because the GA is a metaheuristic, so its ripe for reuse. In fact, I used the same GA library on three separate problems. The satisfaction of reuse really motivates me to provide improvements to the library.</p>
+
+<h3>The Code</h3>
+
+<p>The code was written in Ruby. There are a few examples included that you can run right away. The README should help get started.</p>
+
+<blockquote><p><a href="https://github.com/jamestunnell/evolve">https://github.com/jamestunnell/evolve</a></p></blockquote>
+
+<!--more-->
+
+
+<h3>Details</h3>
+
+<p>Some details might be worth mentioning.</p>
+
+<p>Only a simple GA is implemented. There&rsquo;s not facilities for multiple populations (islands), nor local searching (like memetic, annealing, etc.), nor co-evolution.</p>
+
+<p>On the other hand, it&rsquo;s quite easy to use any one of the built-in methods for selection, mutation, and crossover. Methods for mutation and crossover are avaible by just including one of the built-in modules, like <code>UniformMutation</code> or <code>OnepointCrossover</code>. See the examples to get an idea how this is done. The <code>TournamentSelector</code> class will give you an idea of how to implement a selection method.</p>
+
+<h3>Finally</h3>
+
+<p>In the end, it&rsquo;s not terribly full-featured, but it&rsquo;s easy to use and it may prove useful for quick prototyping of an optimization problem.</p>
+]]></content>
+  </entry>
+  
+</feed>

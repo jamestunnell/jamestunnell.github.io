@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Machine Learning | James Tunnell]]></title>
+  <link href="http://jamestunnell.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
+  <link href="http://jamestunnell.github.io/"/>
+  <updated>2014-06-14T15:51:34-07:00</updated>
+  <id>http://jamestunnell.github.io/</id>
+  <author>
+    <name><![CDATA[James Tunnell]]></name>
+    <email><![CDATA[jamestunnell@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Chaotic Neural Network to Solve the TSP]]></title>
+    <link href="http://jamestunnell.github.io/blog/2014/06/09/chaotic-tsp/"/>
+    <updated>2014-06-09T17:19:00-07:00</updated>
+    <id>http://jamestunnell.github.io/blog/2014/06/09/chaotic-tsp</id>
+    <content type="html"><![CDATA[<p>I just finished up work on a school project with my classmate Sami, solving the traveling salesman problem (TSP) using neural networks (NNs). And not just any NN, but a chaotic NN! What? Yes. And it&rsquo;s amazing.</p>
+
+<h3>The Code</h3>
+
+<p>The code was written in Python. Go try it out! It&rsquo;s not hard to run, and the README should help you get started.</p>
+
+<blockquote><p><a href="https://github.com/jamestunnell/chaotic_tsp">https://github.com/jamestunnell/chaotic_tsp</a></p></blockquote>
+
+<!--more-->
+
+
+<h3>The Short Story</h3>
+
+<p>Hopfield neural networks are being souped up for optimization, by inducing transient chaotic dynamics. That&rsquo;s basically all there is. (see the long story for more details).</p>
+
+<h3>The Long Story</h3>
+
+<p>We followed the approach described by Aihara and Chen<sup><a href="#Cite1">[1]</a></sup>. They start with a Hopfield NN (HNN), which is fitting since it was Hopfield and Tank<sup><a href="#Cite2">[2]</a></sup> who first applied NNs to solve combinatorial optimization problems, using the HNN of course. So, we start with a HNN. What&rsquo;s missing? Well, the HNN is typically used because it <i>avoids</i> chaotic dynamics (assuming   weights are symmetric and self-connection weights are 0).</p>
+
+<p>In fact, a HNN is guaranteed to converge to a stable local minimum. Well, that&rsquo;s a good thing, actually, but how will this help us produce chaotic dynamics? Chen and Aihara simply add some self-feedback (non-zero self-connection weight). Now we get attractors, and hence rich chaotic dynamics. Now we&rsquo;ve got a mechanism to get our NN to explore the state space (exploratory) instead of going straight for the nearest local minima (greedy). That&rsquo;s what we wanted, but of course this throws the guaranteed convergence right out the window. Hmmm&hellip;</p>
+
+<p>Not to worry, the simple trick is to decay the self-feedback amplitude, just like the cooling in simulated annealing. In fact, the authors are calling this <i>chaotic simulated annealing</i> (CSA) because there&rsquo;s no stochastic behavior in a chaotic system. So as the chaos-inducing term decays, the convergent behavior begins to dominate and the system will magically converge to a local minimum (which could also be the global minimum).</p>
+
+<h3>The Long Long Story</h3>
+
+<p>If you really want it, here it is, in a <a href="/files/csa_tsp.pdf">brief report</a> that Sami and I authored. Or, you can watch our <a href="https://docs.google.com/presentation/d/1ku6XDZD6U9FSL7GWifxkkKqHQyTcFlW7hRSuBttI4Kw/pub?start=false&amp;loop=false&amp;delayms=3000">presentation</a> on the same topic.</p>
+
+<h4>References</h4>
+
+<ol>
+<li><a name="Cite1"/>Chen, Luonan, and Kazuyuki Aihara. &ldquo;Chaotic simulated annealing by a neural network model with transient chaos.&rdquo; Neural networks 8.6 (1995): 915-930.</li>
+<li><a name="Cite2"/>Hopfield, John J., and David W. Tank. &ldquo;“Neural” computation of decisions in optimization problems.&rdquo; Biological cybernetics 52.3 (1985): 141-152.</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

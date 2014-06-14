@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Computer Science | James Tunnell]]></title>
+  <link href="http://jamestunnell.github.io/blog/categories/computer-science/atom.xml" rel="self"/>
+  <link href="http://jamestunnell.github.io/"/>
+  <updated>2014-06-14T15:51:34-07:00</updated>
+  <id>http://jamestunnell.github.io/</id>
+  <author>
+    <name><![CDATA[James Tunnell]]></name>
+    <email><![CDATA[jamestunnell@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Inaugural Post!]]></title>
+    <link href="http://jamestunnell.github.io/blog/2014/06/08/inaugural-post/"/>
+    <updated>2014-06-08T04:00:00-07:00</updated>
+    <id>http://jamestunnell.github.io/blog/2014/06/08/inaugural-post</id>
+    <content type="html"><![CDATA[<p>This is the inaugural post! Posts in the future will (probably) be related to whatever I&rsquo;m working on. Please send me a message if you&rsquo;d like to discuss anything I&rsquo;ve posted (really, please do).</p>
+
+<p>In general, my work is not well-defined right now. I&rsquo;m still chugging along in Grad school at the moment. But I&rsquo;m hopeful that I can find practical ways to improve business operations/processes through analysis, modeling, simulation, optimization, etc. You know, all the good tools you might expect from someone well-versed in Operations Research (OR). Well, I&rsquo;m not one like that, but I am pretty competent in Computer Science, and I&rsquo;m developing the OR part&hellip;</p>
+]]></content>
+  </entry>
+  
+</feed>
