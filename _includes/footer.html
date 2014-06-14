@@ -64,11 +64,10 @@
       <br/>
 	  <h2>Tags</h2>
       {% for tag in site.tags %}
-        <li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 75 }}%">
-          <a href="/{{ tag | first | slugize }}/">
-             {{ tag | first }}
-          </a>
-        </li>
+        <a href="/{{ tag | first | slugize }}/"
+      	   style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 75 }}%">
+		  {{ tag | first }}&nbsp;&nbsp;
+		</a>
       {% endfor %}
     </div>
 
