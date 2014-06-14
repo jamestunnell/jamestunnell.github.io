@@ -3,7 +3,7 @@ layout: post
 title:  "Implementing the Genetic Algorithm"
 date:   2014-06-13 09:07:00
 categories: projects 
-tags: projects genetic-algorithm
+tags: projects genetic-algorithm optimization metaheuristics
 ---
 
 Another project at school this quarter required me to implement the [genetic algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm) (GA). It was a bit of a fun project, mostly because the GA is a metaheuristic, so its ripe for reuse. In fact, I used the same GA library on three separate problems. The satisfaction of reuse really motivates me to provide improvements to the library.
