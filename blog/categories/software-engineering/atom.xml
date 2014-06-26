@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Software Engineering | James Tunnell]]></title>
+  <link href="http://jamestunnell.github.io/blog/categories/software-engineering/atom.xml" rel="self"/>
+  <link href="http://jamestunnell.github.io/"/>
+  <updated>2014-06-26T00:35:30-07:00</updated>
+  <id>http://jamestunnell.github.io/</id>
+  <author>
+    <name><![CDATA[James Tunnell]]></name>
+    <email><![CDATA[jamestunnell@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Next Release Problem]]></title>
+    <link href="http://jamestunnell.github.io/blog/2014/06/25/next-release-problem/"/>
+    <updated>2014-06-25T16:00:00-07:00</updated>
+    <id>http://jamestunnell.github.io/blog/2014/06/25/next-release-problem</id>
+    <content type="html"><![CDATA[<p>I have spent a few months now trying to select a topic for my thesis, and I&rsquo;ve settled on the Next Release Problem (NRP). It&rsquo;s one of several problems being worked on in the area of Search-Based Software Engineering (SBSE). I only recently discovered SBSE while I was looking into the possibility of optimizing software development task assignment, as suggested by my thesis advisor, <a href="http://www.cwu.edu/~janvik/">Dr. John Anvik</a>. Already very energized by a recent stumbling onto Operations Research, I was glad to see it being applied in the area of SW engineering (where improvement is definitely needed).</p>
+
+<h3>The Next Release Problem</h3>
+
+<p>In 2001 the Next Release Problem (NRP) was first defined by Bagnall et al<sup><a href="#Cite1">[1]</a></sup>. It addresses the need to select some subset of all the possible software improvements (features, requirements, or what have you) in order to maximize profit, while respecting an upper limit on the amount of effort that can be expended (resources) in development.</p>
+
+<p>Now it might seem the NRP is just like a 0-1 knapsack problem at this point, but there&rsquo;s an additional consideration: profit is only achieved by satisfying a customer. Each customer can have a different profit, and a different list of enhancements that they would like to be implemented in order to be satisfied. This makes the NRP a bit more interesting. And the NRP is definitely NP-Hard, like the 0-1 knapsack optimization problem.</p>
+
+<h4>References</h4>
+
+<ol>
+<li><a name="Cite1"/>Bagnall, Anthony J., Victor J. Rayward-Smith, and Ian M. Whittley. &ldquo;The next release problem.&rdquo; Information and software technology 43.14 (2001): 883-890.</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

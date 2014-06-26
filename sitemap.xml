@@ -2,34 +2,42 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://jamestunnell.github.io/blog/2014/06/08/inaugural-post/</loc>
-        <lastmod>2014-06-14T15:15:52-07:00</lastmod>
+        <lastmod>2014-06-26T00:30:27-07:00</lastmod>
     </url>
     <url>
         <loc>http://jamestunnell.github.io/blog/2014/06/09/chaotic-tsp/</loc>
-        <lastmod>2014-06-14T15:35:55-07:00</lastmod>
+        <lastmod>2014-06-26T00:30:27-07:00</lastmod>
     </url>
     <url>
         <loc>http://jamestunnell.github.io/blog/2014/06/10/my-personality-type/</loc>
-        <lastmod>2014-06-14T15:35:58-07:00</lastmod>
+        <lastmod>2014-06-26T00:30:27-07:00</lastmod>
     </url>
     <url>
         <loc>http://jamestunnell.github.io/blog/2014/06/13/genetic-algorithm/</loc>
-        <lastmod>2014-06-14T15:35:52-07:00</lastmod>
+        <lastmod>2014-06-26T00:30:27-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jamestunnell.github.io/blog/2014/06/25/next-release-problem/</loc>
+        <lastmod>2014-06-26T00:30:27-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jamestunnell.github.io/blog/2014/06/25/thesis-proposal/</loc>
+        <lastmod>2014-06-26T00:30:27-07:00</lastmod>
     </url>
     <url>
         <loc>http://jamestunnell.github.io/</loc>
-        <lastmod>2014-06-14T15:35:58-07:00</lastmod>
+        <lastmod>2014-06-26T00:30:27-07:00</lastmod>
     </url>
     <url>
         <loc>http://jamestunnell.github.io/blog/archives/</loc>
-        <lastmod>2014-06-14T15:35:58-07:00</lastmod>
+        <lastmod>2014-06-26T00:30:27-07:00</lastmod>
     </url>
     <url>
         <loc>http://jamestunnell.github.io/robots.txt</loc>
-        <lastmod>2014-06-14T14:49:24-07:00</lastmod>
+        <lastmod>2014-06-26T00:30:27-07:00</lastmod>
     </url>
     <url>
         <loc>http://jamestunnell.github.io/about.html</loc>
-        <lastmod>2014-06-14T17:48:34-07:00</lastmod>
+        <lastmod>2014-06-26T00:30:27-07:00</lastmod>
     </url>
 </urlset>
