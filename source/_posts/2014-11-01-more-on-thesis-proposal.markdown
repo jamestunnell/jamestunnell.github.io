@@ -5,7 +5,7 @@ date:   2014-11-01 10:46:00
 categories: [Thesis] 
 ---
 
-I've spent some time studying the high-level problem statement outlined in <a href="{{'/blog/2014/06/26/thesis-proposal' | prepend:site.baseurl}}">my last post</a>), and I've identified one of the main obstacles to implementing the Next Release Problem (NRP) in actual software project planning.
+I've spent some time studying the high-level problem statement outlined in <a href="{{'/blog/2014/06/25/thesis-proposal' | prepend:site.baseurl}}">my last post</a>), and I've identified one of the main obstacles to implementing the Next Release Problem (NRP) in actual software project planning.
 
 <!-- more -->
 
