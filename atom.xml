@@ -4,7 +4,7 @@
   <title><![CDATA[James Tunnell]]></title>
   <link href="http://jamestunnell.github.io/atom.xml" rel="self"/>
   <link href="http://jamestunnell.github.io/"/>
-  <updated>2014-06-26T00:37:15-07:00</updated>
+  <updated>2014-11-01T11:26:20-07:00</updated>
   <id>http://jamestunnell.github.io/</id>
   <author>
     <name><![CDATA[James Tunnell]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[More on the Thesis Proposal]]></title>
+    <link href="http://jamestunnell.github.io/blog/2014/11/01/more-on-thesis-proposal/"/>
+    <updated>2014-11-01T03:46:00-07:00</updated>
+    <id>http://jamestunnell.github.io/blog/2014/11/01/more-on-thesis-proposal</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve spent some time studying the high-level problem statement outlined in <a href="http://jamestunnell.github.io/blog/2014/06/26/thesis-proposal">my last post</a>), and I&rsquo;ve identified one of the main obstacles to implementing the Next Release Problem (NRP) in actual software project planning.</p>
+
+<!-- more -->
+
+
+<p>The obstacle stems from estimating the total cost of project requirements. Of course, the total cost will include implementation cost. But it should also include the cost of fixing software defects (bugs) that arise from the implementation. If bug fixing cost is ignored, then the total cost estimate for each requirement is inaccurate. Thus, there is not a sound sound basis for making optimization decisions involving requirement cost.</p>
+
+<p>So, to overcome this obstacle, <a href="https://github.com/jamestunnell/thesis">my thesis work</a> will focus on providing a probabilistic model based of project historical data. The goal of the model is predicting the makeup of expected bugs resulting from any software changes. I&rsquo;m working this quarter to establish a statistical overview of actual project historical data, starting with the <a href="https://www.mongodb.org/">MongoDB</a> project.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[My Thesis Proposal]]></title>

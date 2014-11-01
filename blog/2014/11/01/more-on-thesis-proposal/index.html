@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>The Next Release Problem - James Tunnell</title>
+  <title>More on the Thesis Proposal - James Tunnell</title>
   <meta name="author" content="James Tunnell">
 
   
-  <meta name="description" content="I have spent a few months now trying to select a topic for my thesis, and I&rsquo;ve settled on the Next Release Problem (NRP). It&rsquo;s one of &hellip;">
+  <meta name="description" content="I&rsquo;ve spent some time studying the high-level problem statement outlined in my last post), and I&rsquo;ve identified one of the main obstacles &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://jamestunnell.github.io/blog/2014/06/25/next-release-problem">
+  <link rel="canonical" href="http://jamestunnell.github.io/blog/2014/11/01/more-on-thesis-proposal">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="James Tunnell" type="application/atom+xml">
@@ -69,7 +69,7 @@
   
   <header>
     
-      <h1 class="entry-title">The Next Release Problem</h1>
+      <h1 class="entry-title">More on the Thesis Proposal</h1>
     
     
       <p class="meta">
@@ -85,30 +85,21 @@
   
 
 
-<time datetime="2014-06-25T16:00:00-07:00" pubdate data-updated="true">2014-06-25</time>
+<time datetime="2014-11-01T03:46:00-07:00" pubdate data-updated="true">2014-11-01</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>I have spent a few months now trying to select a topic for my thesis, and I&rsquo;ve settled on the Next Release Problem (NRP). It&rsquo;s one of several problems being worked on in the area of Search-Based Software Engineering (SBSE). I only recently discovered SBSE while I was looking into the possibility of optimizing software development task assignment, as suggested by my thesis advisor, <a href="http://www.cwu.edu/~janvik/">Dr. John Anvik</a>. Already very energized by a recent stumbling onto Operations Research, I was glad to see it being applied in the area of SW engineering (where improvement is definitely needed).</p>
+<div class="entry-content"><p>I&rsquo;ve spent some time studying the high-level problem statement outlined in <a href="/blog/2014/06/26/thesis-proposal">my last post</a>), and I&rsquo;ve identified one of the main obstacles to implementing the Next Release Problem (NRP) in actual software project planning.</p>
 
 <!-- more -->
 
 
-<h3>The Next Release Problem</h3>
+<p>The obstacle stems from estimating the total cost of project requirements. Of course, the total cost will include implementation cost. But it should also include the cost of fixing software defects (bugs) that arise from the implementation. If bug fixing cost is ignored, then the total cost estimate for each requirement is inaccurate. Thus, there is not a sound sound basis for making optimization decisions involving requirement cost.</p>
 
-<p>In 2001 the Next Release Problem (NRP) was first defined by Bagnall et al<sup><a href="#Cite1">[1]</a></sup>. It addresses the need to select some subset of all the possible software improvements (features, requirements, or what have you) in order to maximize profit, while respecting an upper limit on the amount of effort that can be expended (resources) in development.</p>
-
-<p>Now it might seem the NRP is just like a 0-1 knapsack problem at this point, but there&rsquo;s an additional consideration: profit is only achieved by satisfying a customer. Each customer can have a different profit, and a different list of enhancements that they would like to be implemented in order to be satisfied. This makes the NRP a bit more interesting. And the NRP is definitely NP-Hard, like the 0-1 knapsack optimization problem.</p>
-
-<h4>References</h4>
-
-<ol>
-<li><a name="Cite1"/>Bagnall, Anthony J., Victor J. Rayward-Smith, and Ian M. Whittley. &ldquo;The next release problem.&rdquo; Information and software technology 43.14 (2001): 883-890.</li>
-</ol>
-
+<p>So, to overcome this obstacle, <a href="https://github.com/jamestunnell/thesis">my thesis work</a> will focus on providing a probabilistic model based of project historical data. The goal of the model is predicting the makeup of expected bugs resulting from any software changes. I&rsquo;m working this quarter to establish a statistical overview of actual project historical data, starting with the <a href="https://www.mongodb.org/">MongoDB</a> project.</p>
 </div>
 
 
@@ -131,12 +122,12 @@
   
 
 
-<time datetime="2014-06-25T16:00:00-07:00" pubdate data-updated="true">2014-06-25</time>
+<time datetime="2014-11-01T03:46:00-07:00" pubdate data-updated="true">2014-11-01</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/optimization/'>Optimization</a>, <a class='category' href='/blog/categories/software-engineering/'>Software Engineering</a>, <a class='category' href='/blog/categories/thesis/'>Thesis</a>
+    <a class='category' href='/blog/categories/thesis/'>Thesis</a>
   
 </span>
 
@@ -145,7 +136,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://jamestunnell.github.io/blog/2014/06/25/next-release-problem/" data-via="" data-counturl="http://jamestunnell.github.io/blog/2014/06/25/next-release-problem/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://jamestunnell.github.io/blog/2014/11/01/more-on-thesis-proposal/" data-via="" data-counturl="http://jamestunnell.github.io/blog/2014/11/01/more-on-thesis-proposal/" >Tweet</a>
   
   
   
@@ -156,10 +147,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/06/13/genetic-algorithm/" title="Previous Post: Implementing the Genetic Algorithm">&laquo; Implementing the Genetic Algorithm</a>
+        <a class="basic-alignment left" href="/blog/2014/06/25/thesis-proposal/" title="Previous Post: My Thesis Proposal">&laquo; My Thesis Proposal</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/06/25/thesis-proposal/" title="Next Post: My Thesis Proposal">My Thesis Proposal &raquo;</a>
       
     </p>
   </footer>
