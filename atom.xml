@@ -4,7 +4,7 @@
   <title><![CDATA[James Tunnell]]></title>
   <link href="http://jamestunnell.github.io/atom.xml" rel="self"/>
   <link href="http://jamestunnell.github.io/"/>
-  <updated>2014-11-01T11:39:40-07:00</updated>
+  <updated>2014-11-11T16:50:10-08:00</updated>
   <id>http://jamestunnell.github.io/</id>
   <author>
     <name><![CDATA[James Tunnell]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Git Repository for Thesis Files]]></title>
+    <link href="http://jamestunnell.github.io/blog/2014/11/11/thesis-repo/"/>
+    <updated>2014-11-11T08:37:00-08:00</updated>
+    <id>http://jamestunnell.github.io/blog/2014/11/11/thesis-repo</id>
+    <content type="html"><![CDATA[<p>I put all the files from my thesis work in a <a href="http://git-scm.com/">Git</a> repository. <a href="https://github.com/jamestunnell/thesis">Here is the master branch</a> at <a href="https://github.com/jamestunnell/">my GitHub account</a>.</p>
+
+<!-- more -->
+
+
+<p>So as I update scripts, images, docs, etc. I&rsquo;ll commit those changes to the repo and push those commits for all to see.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[More on the Thesis Proposal]]></title>
