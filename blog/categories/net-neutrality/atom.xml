@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Net Neutrality | James Tunnell]]></title>
+  <link href="http://jamestunnell.github.io/blog/categories/net-neutrality/atom.xml" rel="self"/>
+  <link href="http://jamestunnell.github.io/"/>
+  <updated>2015-03-07T22:25:33-08:00</updated>
+  <id>http://jamestunnell.github.io/</id>
+  <author>
+    <name><![CDATA[James Tunnell]]></name>
+    <email><![CDATA[jamestunnell@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[On Net Neutrality: Bandwidth and Bottlenecks]]></title>
+    <link href="http://jamestunnell.github.io/blog/2015/02/26/net-neutrality/"/>
+    <updated>2015-02-26T12:00:00-08:00</updated>
+    <id>http://jamestunnell.github.io/blog/2015/02/26/net-neutrality</id>
+    <content type="html"><![CDATA[<p>The issue of net neutrality is complicated, no doubt. I think Jeffrey Tucker does a nice job assessing the motivations of the different parties in his article, <a href="http://tucker.liberty.me/2015/02/26/net-neutrality-triumph-of-the-ruling-class/">Net Neutrality: Triumph of the Ruling Class</a>. Bottom line: I don&rsquo;t think anybody involved in the new FCC ruling is really looking out for consumers. But, there are still some issues with the current state of internet service that bear discussion. I&rsquo;ll just stick to one of these issues: bandwidth and bottlenecks. Now, I&rsquo;m not a field expert here, but I still think my analysis is relevant.</p>
+
+<!-- more -->
+
+
+<p>The Internet is so named because it is formed by interconnecting networks. This has an advantage, because a server in one network can be used by those in other networks, because their networks are linked. But there is a disadvantage because traffic between two networks has to make its way through the same interconnection(s), which can lead to bottlenecks if maximum bandwidth is reached. Bottlenecks are bad for everyone.</p>
+
+<p>Now this whole problem was probably much easier to manage before the rise of high-bandwidth (HBW) content providers like YouTube, Netflix, Amazon Instant Video, etc. Now there are HBW content servers in some networks and not others, and HBW traffic between networks as a result. Oh dear. Bottlenecks seem inevitable. A way to avoid this is to beef up network interconnects or HBW content can be (<em>cringe</em>) throttled. These both happen. Since there are practical limits to connection capacity, and since they can&rsquo;t be improved immediately, it is sensible to find an alternative solution that avoids throttling. The approach often taken is to store HBW content more local to the network, in order to avoid bottlenecking the critical interconnections. This solution improves latency and reduces bottlenecking by reducing interconnect bandwidth requirements. This is not to say throttling would never be necessary. It might still be, say during peak hours.</p>
+
+<h3>Who&rsquo;s Paying?</h3>
+
+<p>I think this question, &ldquo;who&rsquo;s paying for what?&rdquo;, is probably what riles people up most. I think most people don&rsquo;t like the idea that users pay content providers, users pay ISPs, and content providers pay ISPs. Well, let&rsquo;s look at each of these and see if each one sounds justified on its own.</p>
+
+<ol>
+<li><strong>Users pay ISPs</strong> This one seems sort of obviously justified. You&rsquo;re paying to be part of a network which is part of the Internet. Now you can participate in all sorts of Internet services.</li>
+<li><strong>Users pay content providers</strong> This one also seems to be agreed-upon as a fair arrangement. After all, if content were given away all the time, why how would anyone make money? Well, there&rsquo;s commercials, donations, crowd funding, and maybe other ways. But still, most people aren&rsquo;t averse to the private subscription model.</li>
+<li><strong>Content providers pay ISPs</strong> Here&rsquo;s the rub for many folks. After all, if I&rsquo;m paying for my bandwidth then it shouldn&rsquo;t matter where the data comes from, right? Well, here&rsquo;s where I think the issue is not so straightforward. See more below&hellip;</li>
+</ol>
+
+
+<h3>Should content providers pay ISPs?</h3>
+
+<p>This is a good question. But let&rsquo;s look at it from the opposite side of a HBW consumer. The consumer pays for a certain download speed, and maybe bandwidth as well. Okay, now from the flip side, a content provider pays for a certain speed of connection, and maybe bandwidth as well. Now considering the situation with interconnection bottlenecks, this payment by a content provider may seem well-justified. After all, each HBW provider added to a network is adding to the risk that enough extra traffic will be introduced to the network that interconnection bandwidth will be exceeded at some point. This risk can be mitigated by increasing interconnection capacity, the cost of which justifies the payment. The other option, which was mentioned earlier, is building in content delivery servers into many networks. Doing so reduces the risk to all networks of introducing interconnection traffic. This does not eliminate HBW interconnection traffic, since inevitably a content server is part of one network but not another, but it may eliminate inbound HBW traffic for that content provider. Maybe this results in a lower payment to the ISP, or maybe it just reduces the liklihood of the content being throttle by the ISP. But either way, this arrangement seems more desirable by the ISP, and there should be reason for them to incentivize content providers to move toward this when necessary.</p>
+
+<p>Now, I think the payment by content providers to ISPs has been reasonably justified here. A question then might be: why net neutrality if all the above payments are justified? This is up next.</p>
+
+<h3>Is Net Neutrality Justified?</h3>
+
+<p>The bigger question here might be whether it is justified to throttle specific kinds of traffic without being payed somehow by the service responsible for the traffic. This is what net neutrality is about. It seeks to make ISPs take a neutral stance as to the kind of traffic they move. Well, that&rsquo;s a problem for many people. Like your blogs, tweets, emails, and Google searches? I do, too. That&rsquo;s the bread-and-butter of the Internet for many. Mixing that traffic indiscriminantly with the afore-mentioned HBW traffic is not necessarily the best path to a high quality-of-service for most. I would argue it&rsquo;s a pretty bad plan. Letting the traffic &ldquo;run free&rdquo; is a recipe for having to throttle <em>all</em> kinds of traffic when things get very busy. When combined with distributed content servers, selective throttling seems like a good plan to keep most everyone happy, most of the time.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Web Development | James Tunnell]]></title>
+  <link href="http://jamestunnell.github.io/blog/categories/web-development/atom.xml" rel="self"/>
+  <link href="http://jamestunnell.github.io/"/>
+  <updated>2015-03-07T22:25:33-08:00</updated>
+  <id>http://jamestunnell.github.io/</id>
+  <author>
+    <name><![CDATA[James Tunnell]]></name>
+    <email><![CDATA[jamestunnell@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hey, I Built a Website!]]></title>
+    <link href="http://jamestunnell.github.io/blog/2015/02/26/i-built-a-website/"/>
+    <updated>2015-02-26T14:00:00-08:00</updated>
+    <id>http://jamestunnell.github.io/blog/2015/02/26/i-built-a-website</id>
+    <content type="html"><![CDATA[<p>I built a website! Yes, I know, there are a lot of websites already. But this is one that I built, not that it&rsquo;s special because of that, but it does explain my excitement.</p>
+
+<p>My client is the Ellensburg Homeschool Co-op, and the website is designed especially to make student registration easy for parents and administrators to deal with. Check it out at <a href="http://www.ellensburghomeschool.com/">http://www.ellensburghomeschool.com</a>.</p>
+
+<!-- more -->
+
+
+
+]]></content>
+  </entry>
+  
+</feed>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Thesis | James Tunnell]]></title>
   <link href="http://jamestunnell.github.io/blog/categories/thesis/atom.xml" rel="self"/>
   <link href="http://jamestunnell.github.io/"/>
-  <updated>2014-11-11T16:50:10-08:00</updated>
+  <updated>2015-03-07T22:25:33-08:00</updated>
   <id>http://jamestunnell.github.io/</id>
   <author>
     <name><![CDATA[James Tunnell]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My Proposal Is Finished]]></title>
+    <link href="http://jamestunnell.github.io/blog/2015/03/07/finished-proposal/"/>
+    <updated>2015-03-07T14:15:00-08:00</updated>
+    <id>http://jamestunnell.github.io/blog/2015/03/07/finished-proposal</id>
+    <content type="html"><![CDATA[<p>The last few weeks have been very productive for my thesis work. The main challenge has been leaping the intellectual hurdles in understanding the pertinant aspects of time series modeling, especially the modeling methodology. But, thanks to my newly discovered and very helpful resource on time series, Dr. Kathryn Temple, I have finally been able to talk to someone about the gory technical details. So I now have a solid, working proposal document (see the latest version <a href="https://github.com/jamestunnell/thesis/blob/master/proposal/proposal.pdf">here</a>). Now as soon as I can get a committee together, I&rsquo;ll be able to present my proposal and get this show on the road!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git Repository for Thesis Files]]></title>
