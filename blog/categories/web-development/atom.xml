@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Web Development | James Tunnell]]></title>
   <link href="http://jamestunnell.github.io/blog/categories/web-development/atom.xml" rel="self"/>
   <link href="http://jamestunnell.github.io/"/>
-  <updated>2015-03-07T22:25:33-08:00</updated>
+  <updated>2015-03-07T22:34:18-08:00</updated>
   <id>http://jamestunnell.github.io/</id>
   <author>
     <name><![CDATA[James Tunnell]]></name>
@@ -25,7 +25,13 @@
 <!-- more -->
 
 
+<p>The site was built using Ruby-on-Rails and Bootstrap, and it utilizes several services to simplify hosting and operation.
+* Cloudinary &ndash; stores images for account profile pictures
+* Mailgun &ndash; email service with HTTP API
+* Amazon Route 53 &ndash; domain registration and DNS
+* Heroku &ndash; application website hosting</p>
 
+<p>This was a great opportunity to try my hand at web development and help a worthy local cause at the same. It was really a win-win. And of course, who doesn&rsquo;t like building applications with Ruby? It&rsquo;s always great fun.</p>
 ]]></content>
   </entry>
   
