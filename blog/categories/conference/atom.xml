@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Conference | James Tunnell]]></title>
+  <link href="http://jamestunnell.github.io/blog/categories/conference/atom.xml" rel="self"/>
+  <link href="http://jamestunnell.github.io/"/>
+  <updated>2015-03-26T10:48:56-07:00</updated>
+  <id>http://jamestunnell.github.io/</id>
+  <author>
+    <name><![CDATA[James Tunnell]]></name>
+    <email><![CDATA[jamestunnell@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[SEKE Paper Submission]]></title>
+    <link href="http://jamestunnell.github.io/blog/2015/03/26/seke-paper/"/>
+    <updated>2015-03-26T03:30:00-07:00</updated>
+    <id>http://jamestunnell.github.io/blog/2015/03/26/seke-paper</id>
+    <content type="html"><![CDATA[<p>Instead of pushing ahead to present my proposal, I&rsquo;ve spent the last few weeks turning the proposal into a paper (available <a href="https://github.com/jamestunnell/thesis/blob/master/doc/SEKE-paper.pdf">here on Github</a>) for submission to the Conference on Software Engineering and Knowledge Engineering (<a href="http://www.ksi.edu/seke/seke15.html">SEKE 2015</a>). This is something that I have never done before, so I&rsquo;m very grateful that I had Dr. Anvik to co-author the paper with me. The paper would probably fit well into the Measurement and Empirical Software Engineering category. But, whether the paper is accepted or not, I appreciated the chance to experience the process. And we can always improve it and resubmit to another conference.</p>
+]]></content>
+  </entry>
+  
+</feed>

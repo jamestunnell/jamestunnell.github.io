@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Thesis | James Tunnell]]></title>
   <link href="http://jamestunnell.github.io/blog/categories/thesis/atom.xml" rel="self"/>
   <link href="http://jamestunnell.github.io/"/>
-  <updated>2015-03-07T22:34:18-08:00</updated>
+  <updated>2015-03-26T10:48:56-07:00</updated>
   <id>http://jamestunnell.github.io/</id>
   <author>
     <name><![CDATA[James Tunnell]]></name>
@@ -14,11 +14,20 @@
 
   
   <entry>
+    <title type="html"><![CDATA[SEKE Paper Submission]]></title>
+    <link href="http://jamestunnell.github.io/blog/2015/03/26/seke-paper/"/>
+    <updated>2015-03-26T03:30:00-07:00</updated>
+    <id>http://jamestunnell.github.io/blog/2015/03/26/seke-paper</id>
+    <content type="html"><![CDATA[<p>Instead of pushing ahead to present my proposal, I&rsquo;ve spent the last few weeks turning the proposal into a paper (available <a href="https://github.com/jamestunnell/thesis/blob/master/doc/SEKE-paper.pdf">here on Github</a>) for submission to the Conference on Software Engineering and Knowledge Engineering (<a href="http://www.ksi.edu/seke/seke15.html">SEKE 2015</a>). This is something that I have never done before, so I&rsquo;m very grateful that I had Dr. Anvik to co-author the paper with me. The paper would probably fit well into the Measurement and Empirical Software Engineering category. But, whether the paper is accepted or not, I appreciated the chance to experience the process. And we can always improve it and resubmit to another conference.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[My Proposal Is Finished]]></title>
     <link href="http://jamestunnell.github.io/blog/2015/03/07/finished-proposal/"/>
     <updated>2015-03-07T14:15:00-08:00</updated>
     <id>http://jamestunnell.github.io/blog/2015/03/07/finished-proposal</id>
-    <content type="html"><![CDATA[<p>The last few weeks have been very productive for my thesis work. The main challenge has been leaping the intellectual hurdles in understanding the pertinant aspects of time series modeling, especially the modeling methodology. But, thanks to my newly discovered and very helpful resource on time series, Dr. Kathryn Temple, I have finally been able to talk to someone about the gory technical details. So I now have a solid, working proposal document (see the latest version <a href="https://github.com/jamestunnell/thesis/blob/master/proposal/proposal.pdf">here</a>). Now as soon as I can get a committee together, I&rsquo;ll be able to present my proposal and get this show on the road!</p>
+    <content type="html"><![CDATA[<p>The last few weeks have been very productive for my thesis work. The main challenge has been leaping the intellectual hurdles in understanding the pertinant aspects of time series modeling, especially the modeling methodology. But, thanks to my newly discovered and very helpful resource on time series, Dr. Kathryn Temple, I have finally been able to talk to someone about the gory technical details. So I now have a solid, working proposal document (see the latest version <a href="https://github.com/jamestunnell/thesis/blob/master/doc/proposal.pdf">here</a>). Now as soon as I can get a committee together, I&rsquo;ll be able to present my proposal and get this show on the road!</p>
 ]]></content>
   </entry>
   
@@ -65,31 +74,6 @@
 
 
 <p>If all goes well, I&rsquo;ll have the proposal ready to present by Fall quarter.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Next Release Problem]]></title>
-    <link href="http://jamestunnell.github.io/blog/2014/06/25/next-release-problem/"/>
-    <updated>2014-06-25T16:00:00-07:00</updated>
-    <id>http://jamestunnell.github.io/blog/2014/06/25/next-release-problem</id>
-    <content type="html"><![CDATA[<p>I have spent a few months now trying to select a topic for my thesis, and I&rsquo;ve settled on the Next Release Problem (NRP). It&rsquo;s one of several problems being worked on in the area of Search-Based Software Engineering (SBSE). I only recently discovered SBSE while I was looking into the possibility of optimizing software development task assignment, as suggested by my thesis advisor, <a href="http://www.cwu.edu/~janvik/">Dr. John Anvik</a>. Already very energized by a recent stumbling onto Operations Research, I was glad to see it being applied in the area of SW engineering (where improvement is definitely needed).</p>
-
-<!-- more -->
-
-
-<h3>The Next Release Problem</h3>
-
-<p>In 2001 the Next Release Problem (NRP) was first defined by Bagnall et al<sup><a href="#Cite1">[1]</a></sup>. It addresses the need to select some subset of all the possible software improvements (features, requirements, or what have you) in order to maximize profit, while respecting an upper limit on the amount of effort that can be expended (resources) in development.</p>
-
-<p>Now it might seem the NRP is just like a 0-1 knapsack problem at this point, but there&rsquo;s an additional consideration: profit is only achieved by satisfying a customer. Each customer can have a different profit, and a different list of enhancements that they would like to be implemented in order to be satisfied. This makes the NRP a bit more interesting. And the NRP is definitely NP-Hard, like the 0-1 knapsack optimization problem.</p>
-
-<h4>References</h4>
-
-<ol>
-<li><a name="Cite1"/>Bagnall, Anthony J., Victor J. Rayward-Smith, and Ian M. Whittley. &ldquo;The next release problem.&rdquo; Information and software technology 43.14 (2001): 883-890.</li>
-</ol>
-
 ]]></content>
   </entry>
   
