@@ -4,7 +4,7 @@
   <title><![CDATA[James Tunnell]]></title>
   <link href="http://jamestunnell.github.io/atom.xml" rel="self"/>
   <link href="http://jamestunnell.github.io/"/>
-  <updated>2015-03-26T11:23:21-07:00</updated>
+  <updated>2015-03-29T00:15:31-07:00</updated>
   <id>http://jamestunnell.github.io/</id>
   <author>
     <name><![CDATA[James Tunnell]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[SEL Presentation]]></title>
+    <link href="http://jamestunnell.github.io/blog/2015/03/28/SEL-presentation/"/>
+    <updated>2015-03-28T16:51:00-07:00</updated>
+    <id>http://jamestunnell.github.io/blog/2015/03/28/SEL-presentation</id>
+    <content type="html"><![CDATA[<p>My Spring break started out uneventful, just relaxing with my family. Then I recieved a phone call to set up an face-to-face interview in Oregon. Great. Change of plan. Fate wasn&rsquo;t through yet, though. On my way to the interview, I got another call to set up an interview, this time with Schweitzer Engineering Labs in Pullman, WA.</p>
+
+<p>As part of my interview, they&rsquo;ve asked me to make a technical presentation. Well, what a perfect opportunity to put together a presentation for my thesis! So I&rsquo;ve done it. It&rsquo;s long (55 slides). <a href="https://github.com/jamestunnell/thesis/blob/master/doc/presentation.pdf">Here it is</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[SEKE Paper Submission]]></title>
