@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Computer-Music | James Tunnell]]></title>
+  <link href="http://jamestunnell.github.io/blog/categories/computer-music/atom.xml" rel="self"/>
+  <link href="http://jamestunnell.github.io/"/>
+  <updated>2015-04-27T15:09:04-07:00</updated>
+  <id>http://jamestunnell.github.io/</id>
+  <author>
+    <name><![CDATA[James Tunnell]]></name>
+    <email><![CDATA[jamestunnell@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ensembles: An Open Source Album]]></title>
+    <link href="http://jamestunnell.github.io/blog/2015/04/27/ensembles-an-open-source-album/"/>
+    <updated>2015-04-27T07:47:00-07:00</updated>
+    <id>http://jamestunnell.github.io/blog/2015/04/27/ensembles-an-open-source-album</id>
+    <content type="html"><![CDATA[<p>I put together some of my old ensemble compositions to make an album, of sorts. The important detail, I think, is that the music is all produced &ldquo;from source&rdquo;, so it starts as source code and through processing becomes a MIDI file you can listen to. The code for the album is available at my Github repo, <a href="https://github.com/jamestunnell/album-ensembles">album-ensembles</a>, along with instructions for installing necessary software and running build commands.</p>
+]]></content>
+  </entry>
+  
+</feed>

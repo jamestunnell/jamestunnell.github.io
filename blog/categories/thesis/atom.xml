@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Thesis | James Tunnell]]></title>
   <link href="http://jamestunnell.github.io/blog/categories/thesis/atom.xml" rel="self"/>
   <link href="http://jamestunnell.github.io/"/>
-  <updated>2015-04-27T15:06:44-07:00</updated>
+  <updated>2015-04-27T15:09:04-07:00</updated>
   <id>http://jamestunnell.github.io/</id>
   <author>
     <name><![CDATA[James Tunnell]]></name>
@@ -12,15 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Ensembles: An Open Source Album]]></title>
-    <link href="http://jamestunnell.github.io/blog/2015/04/27/ensembles-an-open-source-album/"/>
-    <updated>2015-04-27T07:47:00-07:00</updated>
-    <id>http://jamestunnell.github.io/blog/2015/04/27/ensembles-an-open-source-album</id>
-    <content type="html"><![CDATA[<p>I put together some of my old ensemble compositions to make an album, of sorts. The important detail, I think, is that the music is all produced &ldquo;from source&rdquo;, so it starts as source code and through processing becomes a MIDI file you can listen to. The code for the album is available at my Github repo, <a href="https://github.com/jamestunnell/album-ensembles">album-ensembles</a>, along with instructions for installing necessary software and running build commands.</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[SEL Presentation]]></title>
@@ -62,6 +53,22 @@
 
 
 <p>So as I update scripts, images, docs, etc. I&rsquo;ll commit those changes to the repo and push those commits for all to see.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[More on the Thesis Proposal]]></title>
+    <link href="http://jamestunnell.github.io/blog/2014/11/01/more-on-thesis-proposal/"/>
+    <updated>2014-11-01T03:46:00-07:00</updated>
+    <id>http://jamestunnell.github.io/blog/2014/11/01/more-on-thesis-proposal</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve spent some time studying the high-level problem statement outlined in <a href="/blog/2014/06/25/thesis-proposal">my last post</a>), and I&rsquo;ve identified one of the main obstacles to implementing the Next Release Problem (NRP) in actual software project planning.</p>
+
+<!-- more -->
+
+
+<p>The obstacle stems from estimating the total cost of project requirements. Of course, the total cost will include implementation cost. But it should also include the cost of fixing software defects (bugs) that arise from the implementation. If bug fixing cost is ignored, then the total cost estimate for each requirement is inaccurate. Thus, there is not a sound sound basis for making optimization decisions involving requirement cost.</p>
+
+<p>So, to overcome this obstacle, <a href="https://github.com/jamestunnell/thesis">my thesis work</a> will focus on providing a probabilistic model based of project historical data. The goal of the model is predicting the makeup of expected bugs resulting from any software changes. I&rsquo;m working this quarter to establish a statistical overview of actual project historical data, starting with the <a href="https://www.mongodb.org/">MongoDB</a> project.</p>
 ]]></content>
   </entry>
   
